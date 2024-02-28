@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/adi.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -38,14 +38,15 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import coverhunt from './company/jdc.png';
+import dcc from './company/elloha.png';
+import kelhel from './company/agrove.png';
+import microverse from './company/perfumist.png';
+import graduate from './company/graduate.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
+import komikult from './projects/perfumist.png';
+import leaderboard from './projects/agrove.png';
+import math from './projects/elloha.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
@@ -55,6 +56,7 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
+  graduate,
   logo,
   logotext,
   shaq,

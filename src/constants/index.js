@@ -23,6 +23,7 @@ import {
   movie,
   nyeusi,
   space,
+  graduate,
   coverhunt,
   dcc,
   kelhel,
@@ -32,11 +33,11 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'À propos',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Projets',
   },
   {
     id: 'contact',
@@ -46,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Mobile Developer',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Full Stack Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Web Developer',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Engineer',
     icon: prototyping,
   },
 ];
@@ -125,39 +126,46 @@ const technologies = [
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    company_name: 'Les jardins du Cloitre de Marseille',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Oct 2019 - Nov 2019',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Android Developer',
+    company_name: 'Perfumist',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sept 2020 - Jun 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Android & IOS Developer',
+    company_name: 'Agrove',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Dec 2021 - Dec 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Software Engineer',
+    company_name: 'Elloha',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Dec 2022 - Actuellement',
   },
+  {
+    title: 'Architecte Logiciel - Bac +5',
+    company_name: 'Epitech',
+    icon: graduate,
+    iconBg: '#333333',
+    date: 'Sep 2022 - Juil 2024',
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Perfumist',
+    description: 'Refonte intégrale de l’application android mobile Perfumist (1m+ téléchargements)',
     tags: [
       {
         name: 'react',
@@ -178,9 +186,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Agrove',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Developpement de l’application mobile Agrove (Android & IOS), application pour monitorer les capteurs connectés remontant les données des cultures agricoles.',
     tags: [
       {
         name: 'react',
@@ -201,8 +209,8 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Elloha',
+    description: 'Refonte integrale de l’application mobile Elloha (Android & IOS), lancement de la refonte en React de la solution web, developpement de nouveaux endpoints pour l’API Rest et veille technologique sur des sujets AI et Data Science.',
     tags: [
       {
         name: 'nextjs',
@@ -223,8 +231,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Raquette Padel Pro',
+    description: `Developpement d'une application BtoB pour Raquette Padel Pro, application pour la commande et consultation de produits pour les clubs de padel.`,
     tags: [
       {
         name: 'nextjs',
@@ -245,9 +253,9 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Ludocars66',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Developpement de la solution web pour Ludocars66, location de voitures.',
     tags: [
       {
         name: 'nextjs',
