@@ -25,8 +25,10 @@ const ProjectCard = ({
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
+    } 
+    ${active === '' ? '' : 'transition-all duration-300 ease-in-out'}
+    flex items-center justify-center min-w-[170px] 
+    h-[420px] cursor-pointer card-shadow`}
       onClick={() => handleClick(id)}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
@@ -51,8 +53,8 @@ const ProjectCard = ({
       ) : (
         <>
           <div
-            className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
+            className="absolute bottom-0 p-8 justify-start w-full
+            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20 fade-in">
   
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
@@ -103,7 +105,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('');
 
   return (
     <div className="-mt-[6rem]">
@@ -116,7 +118,7 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Ces projets démontrent mon experience avec des exemples de certains projet que j'ai réalisé. Ils démontrent ma capacité à relever des défis, à m'adapter à diverses technologies et à superviser efficacement des projets.
+          Ces projets démontrent mon experience avec des exemples. Ils démontrent ma capacité à relever des défis, à m'adapter à diverses technologies et à superviser efficacement des projets.
         </motion.p>
       </div>
 

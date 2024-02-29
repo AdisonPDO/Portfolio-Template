@@ -13,21 +13,23 @@ import {
   nodejs,
   git,
   figma,
-  docker,
   postgresql,
   rubyrails,
   graphql,
+  docker,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
+  swift,
   graduate,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  flutter,
+  shopify,
 } from '../assets';
 
 export const navLinks = [
@@ -66,6 +68,22 @@ const services = [
 
 const technologies = [
   {
+    name: 'Kotlin',
+    icon: figma,
+  },
+  {
+    name: 'Swift',
+    icon: swift,
+  },
+  {
+    name: 'Flutter',
+    icon: flutter,
+  },
+  {
+    name: 'Shopify',
+    icon: shopify,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
@@ -98,28 +116,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'Docker',
+    icon: docker,
   },
   {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 

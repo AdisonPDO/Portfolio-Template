@@ -29,8 +29,8 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_f5cbo75', // paste your ServiceID here (you'll get one when your service is created).
+        'template_15hcj4u', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
           to_name: 'Adison', // put your name here.
@@ -38,12 +38,12 @@ const Contact = () => {
           to_email: 'adison.pereira@outlook.fr', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'GPjl7Xjkj7Lc1nZKi' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert('Merci. Je reviens vers vous des que possible.');
 
           setForm({
             name: '',
@@ -54,7 +54,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+          alert("Quelque chose s'est mal passé. Veuillez réessayer.");
         }
       );
   };
