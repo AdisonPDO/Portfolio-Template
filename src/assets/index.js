@@ -13,6 +13,8 @@ import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
+import apple from './icons/apple.png';
+import google from './icons/google.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -53,6 +55,8 @@ import space from './projects/space-hub.png';
 
 export {
   bwmap,
+  apple,
+  google,
   nairobi,
   whiteabstract,
   worldmap,

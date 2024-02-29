@@ -183,6 +183,9 @@ const projects = [
     image: komikult,
     repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
+    webUrl : 'https://perfumist.fr',
+    appStoreUrl : 'https://apps.apple.com/fr/app/perfumist-perfumes-advisor/id631338649',
+    playStoreUrl : 'https://play.google.com/store/apps/details?id=com.smartsoftasia.perfume&pcampaignid=web_share',
   },
   {
     id: 'project-2',
@@ -226,13 +229,16 @@ const projects = [
       },
     ],
     image: math,
+    webUrl : 'https://www.elloha.com/',
+    appStoreUrl : 'https://apps.apple.com/fr/app/elloha/id1113021490',
+    playStoreUrl : 'https://play.google.com/store/apps/details?id=fr.ellohapp&hl=fr&gl=US',
     repo: 'https://github.com/shaqdeff/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
     name: 'Raquette Padel Pro',
-    description: `Developpement d'une application BtoB pour Raquette Padel Pro, application pour la commande et consultation de produits pour les clubs de padel.`,
+    description: `Developpement d'une application BtoB pour Raquette Padel Pro, application pour la commande et consultation de produits pour les clubs de padel. Developpement en cours.`,
     tags: [
       {
         name: 'nextjs',
@@ -248,6 +254,7 @@ const projects = [
       },
     ],
     image: movie,
+    webUrl : 'https://www.raquette-padel.com/',
     repo: 'https://github.com/shaqdeff/Movie-Metro',
     demo: 'https://movie-metro.netlify.app/',
   },
@@ -255,7 +262,7 @@ const projects = [
     id: 'project-5',
     name: 'Ludocars66',
     description:
-      'Developpement de la solution web pour Ludocars66, location de voitures.',
+      'Developpement de la solution web pour Ludocars66, location de voitures. Developpement en cours.',
     tags: [
       {
         name: 'nextjs',
@@ -271,6 +278,7 @@ const projects = [
       },
     ],
     image: nyeusi,
+    webUrl : 'https://www.ludocars66.fr/',
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
